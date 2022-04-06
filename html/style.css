@@ -1,0 +1,65 @@
+@font-face {
+    font-family:fontop ;
+    src: url(fontfile.ttf);
+}
+@font-face {
+    font-family:fontopblack ;
+    src: url(fontmonblack.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+opacity: 0.5;
+width:100% ;
+}
+.nasa{
+    width: 100%;
+    opacity:0.5 ;
+}
+.tesla{
+    width: 100%;
+    opacity:0.4 ;
+}
+.info{
+    color:whitesmoke;
+    font-size: large;
+    font-family: fontopblack;
+    position: relative;
+    bottom: 300px;
+}
+.information{
+    color:whitesmoke;
+    font-size: large;
+    font-family: fontopblack;
+    position: relative;
+    bottom: 800px;
+}
+
+body{
+     background-color: black;
+    text-align: center;
+}
+.Elon{
+  /* border-radius: 100%;  */
+  width: 25%;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px red; 
+  opacity: 0.9;
+  
+}
+#blackfont{
+    font-family: fontopblack;
+    color: whitesmoke;
+}
+#elonmusk{
+font-family: fontop;
+color: whitesmoke;
+}
+.background2{
+    height:700px;
+}
+.background3{
+    height:700px;
+}
